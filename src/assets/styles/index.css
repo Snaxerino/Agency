@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@500&display=swap');
 
 @import "tailwindcss";
 
 @theme {
 	--default-font-family: "Inter", sans-serif;
+	--font-geist: "Geist Mono", sans-serif;
 	--text-*: initial;
 
-	/* Label */
+	/********** Label **********/
 	--text-label-lg: 1.125rem;
 	--text-label-lg--line-height: 1.5rem;
 	--text-label-lg--letter-spacing: -0.27px;
@@ -27,25 +29,41 @@
 	--text-label-xs--letter-spacing: -0.084px;
 	--text-label-xs--font-weight: 500;
 
-	/* Body */
+	/********** Body **********/
 	--text-body-lg: 1.125rem;
 	--text-body-lg--line-height: 1.5rem;
 	--text-body-lg--letter-spacing: -0.27px;
+	--text-body-lg--font-weight: 500;
 
 	--text-body-md: 1rem;
 	--text-body-md--line-height: 1.5rem;
 	--text-body-md--letter-spacing: -0.176px;
+	--text-body-md--font-weight: 500;
 
 	--text-body-sm: 0.875rem;
 	--text-body-sm--line-height: 1.25rem;
 	--text-body-sm--letter-spacing: -0.084px;
+	--text-body-sm--font-weight: 500;
 
 	--text-body-xs: 0.75rem;
 	--text-body-xs--line-height: 1rem;
-	--text-body-sm--letter-spacing: -0.084px;
+	--text-body-xs--letter-spacing: -0.084px;
+	--text-body-xs--font-weight: 500;
+
+	/********** Caption **********/
+	--text-caption-sm: 0.875rem;
+	--text-caption-sm--line-height: 1.25rem;
+	--text-caption-sm--letter-spacing: -0.084px;
+	--text-caption-sm--font-weight: 500;
+
+	--text-caption-xs: 0.75rem;
+	--text-caption-xs--line-height: 1rem;
+	--text-caption-xs--letter-spacing: -0.084px;
+	--text-caption-xs--font-weight: 500;
+
+	/********************/
 
 	--color-brand: #FC8431;
-
 	--phone-menu: 100svh;
 }
 

@@ -16,7 +16,7 @@ export default function Header() {
 			<Cube className="-left-1.5 -bottom-1.5"/>
 			<Cube className="-right-1.5 -bottom-1.5"/>
 			<div className="flex items-center justify-between gap-5">
-				<Link to="/">
+				<Link to="/" className="select-none">
 					<img src={logo} alt="" width={24} height={24} className="min-size-8 md:min-size-6" />
 				</Link>	
 				<div className="hidden md:block border-l border-neutral-200 h-4 w-px"></div>
@@ -32,7 +32,7 @@ export default function Header() {
 							<NavLink href="/enterprise" isHovered={isHovered} setHovered={setHovered}>Enterprise</NavLink>
 						</li>
 					</ul>
-					<Link to="https://cal.com/Noctis.studio" className="text-center group h-9 px-3.5 py-1.5 overflow-hidden bg-neutral-950 rounded-[10px]" target="_blank">
+					<Link to="https://cal.com/Noctis.studio" className="select-none text-center group h-9 px-3.5 py-1.5 overflow-hidden bg-neutral-950 rounded-[10px]" target="_blank">
 						<div className='group-hover:-translate-y-6 ease-in duration-150'>
 							<p className='label-md text-neutral-50'>Book a call</p>
 							<p className='label-md text-neutral-50'>Let's do it!</p>
@@ -57,7 +57,7 @@ export default function Header() {
 								<NavLink href="/enterprise" isHovered={isHovered} setHovered={setHovered}>Enterprise</NavLink>
 							</li>
 						</ul>
-						<Link to="https://cal.com/Noctis.studio" className="text-center px-3.5 py-2 md:py-1.5 bg-neutral-950 rounded-[10px] label-md text-neutral-50" target="_blank">
+						<Link to="https://cal.com/Noctis.studio" className="select-none text-center px-3.5 py-2 md:py-1.5 bg-neutral-950 rounded-[10px] label-md text-neutral-50" target="_blank">
 							Book a call
 						</Link>
 					</nav>
