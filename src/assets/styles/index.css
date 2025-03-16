@@ -50,5 +50,5 @@
 }
 
 .phone-height {
-	height: calc(var(--phone-menu) - 65px);
+	height: calc(var(--phone-menu) - 62px);
 }
