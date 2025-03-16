@@ -17,7 +17,7 @@ export default function Header() {
 			<Cube className="-right-1.5 -bottom-1.5"/>
 			<div className="flex items-center justify-between gap-5">
 				<Link to="/">
-					<img src={logo} alt="" width={24} height={24} className="size-8 md:size-6" />
+					<img src={logo} alt="" width={24} height={24} className="min-size-8 md:min-size-6" />
 				</Link>	
 				<div className="hidden md:block border-l border-neutral-200 h-4 w-px"></div>
 				<nav className="hidden w-full md:flex justify-between">
@@ -44,7 +44,7 @@ export default function Header() {
 				</div>
 			</div>
 			{menuOpen &&
-				<div className="phone-height flex items-end pb-2">
+				<div className={`phone-height flex items-end pb-2 md:hidden`}>
 					<nav className="md:hidden w-full flex flex-col gap-8">
 						<ul className="flex flex-col gap-8 items-end justify-end grow">
 							<li>
