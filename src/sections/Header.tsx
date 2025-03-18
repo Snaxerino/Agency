@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import logo from "/Logo.png"
 import NavLink from "../components/Navlink"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import Cube from "../components/Cube"
 import { Close, Menu } from "../components/Icons"
 
@@ -10,6 +10,14 @@ export default function Header() {
 	const [menuOpen, setMenuOpen] = useState(false);
 
 	const toggleMenu = () => { setMenuOpen(!menuOpen) }
+
+	useEffect(() => {
+        document.body.classList.toggle("overflow-hidden", menuOpen);
+        document.body.classList.toggle("lg:overflow-auto", !menuOpen);
+        
+        return () => {
+            document.body.classList.remove("overflow-hidden", "lg:overflow-auto");};
+    }, [menuOpen]);
 
 	return (
 		<header className={`flex flex-col px-6 py-3.5 border-b border-neutral-200 relative ${!menuOpen ? "border-0" : "border-b"}`}>

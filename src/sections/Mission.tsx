@@ -9,9 +9,9 @@ export default function Mission() {
 				<span className="text-caption-xs font-geist text-neutral-600">[1]</span>
 				<p className="text-label-lg text-neutral-950">Our mission. Your success.</p>
 			</div>
-			<div className="w-full p-6 py-6 md:pr-6 md:pl-0">
+			<div className="w-full p-6 py-6 md:pr-6 md:pl-0 text-label-md">
 				<span className="text-neutral-950">We are a studio founded in 2024. </span>
-				<p className="text-label-md text-neutral-500 text-balance">
+				<p className="text-neutral-500 text-balance">
 					We are a team of 
 					<span className="text-neutral-950"> 5 creatives </span>
 					who create the best possible experience by helping companies/startups grow, 
