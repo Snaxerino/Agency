@@ -70,3 +70,8 @@
 .phone-height {
 	height: calc(var(--phone-menu) - 53px);
 }
+
+/* .header-mask {
+	mask: linear-gradient(black, black, transparent);
+	backdrop-filter: blur(8px);
+} */

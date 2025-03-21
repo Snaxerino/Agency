@@ -1,12 +1,9 @@
-import Cube from "../components/Cube"
 import ProjectPreview from "../components/ProjectPreview"
 
 export default function OurWork() {
   return (
     <section className="flex flex-col border-b border-neutral-200">
-		<Cube className="-left-1.5 -bottom-1.5" />
-		<Cube className="-right-1.5 -bottom-1.5" />
-		<div className="p-6 space-y-1 w-full text-center border-b border-neutral-200 top-0 z-10 bg-neutral-50 md:bg-white">
+		<div className="p-6 space-y-1 w-full text-center border-b border-neutral-200 bg-neutral-50 md:bg-white">
 			<span className="text-caption-xs font-geist text-neutral-600">[2]</span>
 			<p className="text-label-lg text-neutral-950">Our proudest work.</p>
 		</div>

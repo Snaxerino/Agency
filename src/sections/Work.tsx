@@ -1,12 +1,9 @@
 import { Link } from "react-router-dom";
-import Cube from "../components/Cube";
 import work1 from "../assets/imgs/work1.jpg"
 
 export default function Work() {
 	return (
 		<section className="flex flex-col lg:grid grid-cols-12 border-b border-neutral-200 relative">
-			<Cube className="-left-1.5 -bottom-1.5"/>
-			<Cube className="-right-1.5 -bottom-1.5"/>
 			<div className="order-2 md:order-0 w-full col-span-8 bg-[#fafafa] md:p-24 lg:pb-0 lg:pr-0 lg:pl-12 lg:pt-12 h-96 lg:h-auto border-b border-neutral-200 lg:border-0 lg:min-h-[388px] overflow-hidden">
 				{/* <div className="w-full h-full bg-white border-l border-t border-neutral-200 rounded-tl-4xl"></div> */}
 				<img src={work1} className="lg:w-full lg:h-full rounded-none md:rounded-t-2xl lg:rounded-tr-none lg:rounded-tl-4xl object-contain lg:object-contain md:shadow-2xl"/>

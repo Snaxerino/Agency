@@ -2,7 +2,6 @@ import { Link } from "react-router-dom"
 import logo from "/Logo.png"
 import NavLink from "../components/Navlink"
 import { useEffect, useState } from "react"
-import Cube from "../components/Cube"
 import { Close, Menu } from "../components/Icons"
 
 export default function Header() {
@@ -20,12 +19,10 @@ export default function Header() {
     }, [menuOpen]);
 
 	return (
-		<header className={`flex flex-col px-6 py-3.5 border-b border-neutral-200 relative ${!menuOpen ? "border-0" : "border-b"}`}>
-			<Cube className="-left-1.5 -bottom-1.5"/>
-			<Cube className="-right-1.5 -bottom-1.5"/>
+		<header className={`flex flex-col px-6 py-3.5 border-b border-neutral-200 sticky top-0 left-0 z-100 backdrop-blur ${!menuOpen ? "border-0" : "border-b"}`}>
 			<div className="flex items-center justify-between gap-5">
 				<Link to="/" className="select-none">
-					<img src={logo} alt="" width={24} height={24} className="min-size-8 md:min-size-6" />
+					<img src={logo} alt="Noctis Studio Logo" width={24} height={24} className="min-size-8 md:min-size-6" />
 				</Link>	
 				<div className="hidden md:block border-l border-neutral-200 h-4 w-px"></div>
 				<nav className="hidden w-full md:flex justify-between">

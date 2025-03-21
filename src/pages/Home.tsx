@@ -1,4 +1,5 @@
 import Wrapper from "../components/Wrapper";
+import Faqs from "../sections/Faqs";
 import Footer from "../sections/Footer";
 import Header from "../sections/Header";
 import Mission from "../sections/Mission";
@@ -14,6 +15,7 @@ export default function Home() {
 					<Mission />
 					<OurWork />
 					<WhatWeDo />
+					{/* <Faqs /> */}
 					<Footer />
 				</main>
 			</Wrapper>
