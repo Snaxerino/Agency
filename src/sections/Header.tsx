@@ -37,7 +37,7 @@ export default function Header() {
 							<NavLink href="/enterprise" isHovered={isHovered} setHovered={setHovered}>Enterprise</NavLink>
 						</li>
 					</ul>
-					<Link to="https://cal.com/Noctis.studio" className="select-none text-center group h-9 px-3.5 py-1.5 overflow-hidden bg-neutral-950 rounded-[10px]" target="_blank">
+					<Link to="https://cal.com/Noctis.studio" className="select-none text-center group h-9 px-3.5 py-1.5 overflow-hidden bg-neutral-950 rounded-[10px] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-950" target="_blank">
 						<div className='group-hover:-translate-y-6 ease-in duration-150'>
 							<p className='label-md text-neutral-50'>Book a call</p>
 							<p className='label-md text-neutral-50'>Let's do it!</p>

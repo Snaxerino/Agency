@@ -14,7 +14,7 @@ export default function NavLink({ href, children, isHovered, setHovered }: NavLi
     return (
         <Link
             to={href}
-            className={`w-min hover:text-neutral-950 text-label-lg md:text-label-sm active:text-neutral-950 transition-colors duration-500 active:duration-0 ${isActive ? "text-neutral-950" : isHovered ? "text-neutral-400" : "text-neutral-700"}`}
+            className={`w-min hover:text-neutral-950 text-label-lg md:text-label-sm active:text-neutral-950 transition-colors duration-500 active:duration-0 focus-visible:text-brand focus-visible:outline-none ${isActive ? "text-neutral-950" : isHovered ? "text-neutral-400" : "text-neutral-700"}`}
             onMouseEnter={() => setHovered(true)}
             onMouseLeave={() => setHovered(false)}>
             {children}
