@@ -2,7 +2,7 @@ import ProjectType from "../components/ProjectType";
 
 export default function WhatWeDo() {
 	return (
-		<section className="border-b border-neutral-200 relative flex flex-col md:grid md:grid-cols-12">
+		<section className="border-b border-neutral-200 relative flex flex-col md:grid md:grid-cols-12 @container">
 			<div className="col-span-4 flex flex-col justify-between md:border-r border-neutral-200 border-b md:border-b-0">
 				<div className="space-y-1 p-6">
 					<span className="text-caption-xs font-geist text-neutral-600">[3]</span>
