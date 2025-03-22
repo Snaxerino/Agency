@@ -1,5 +1,3 @@
-import Noctis from "../assets/imgs/noctis.svg"
-
 export default function Footer() {
 	return (
 		<footer>
@@ -11,7 +9,7 @@ export default function Footer() {
 					<li><a className="text-caption-xs uppercase text-neutral-600 hover:text-brand whitespace-nowrap focus-visible:outline-none focus-visible:text-brand" href="">Instagram</a></li>
 				</ul>
 			</div>
-			<img src={Noctis} alt="Noctis Studio" className="select-none" width={1024}/>
+			<img src="/imgs/noctis.svg" alt="Noctis Studio" className="select-none" width={1024}/>
 		</footer>
 	)	
 }
