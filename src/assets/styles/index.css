@@ -1,7 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@500&display=swap');
-
 @import "tailwindcss";
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/inter-regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/inter-medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Geist Mono';
+    src: url('../fonts/geist-mono.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
 
 @theme {
 	--default-font-family: "Inter", sans-serif;
