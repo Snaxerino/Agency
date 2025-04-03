@@ -3,6 +3,7 @@ import Footer from "../sections/Footer";
 import Header from "../sections/Header";
 import Mission from "../sections/Mission";
 import OurWork from "../sections/OurWork";
+import Plans from "../sections/Plans";
 import WhatWeDo from "../sections/WhatWeDo";
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
 					<Mission />
 					<OurWork />
 					<WhatWeDo />
+					<Plans />
 					{/* <Faqs /> */}
 					<Footer />
 				</main>
