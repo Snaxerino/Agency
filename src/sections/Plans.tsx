@@ -4,8 +4,8 @@ export default function Plans() {
   return (
 	<section className="border-b border-neutral-200">
 		<div className="p-6 w-full md:pr-0 border-b border-neutral-200 text-center">
-			<span className="text-caption-xs font-geist text-neutral-600">[2]</span>
-			<p className="text-label-lg text-neutral-950">Our proudest work.</p>
+			<span className="text-caption-xs font-geist text-neutral-600">[4]</span>
+			<p className="text-label-lg text-neutral-950">A pricing system built for your needs.</p>
 		</div>
 		<div className="flex flex-col md:flex-row">
 			<div className="w-full border-b md:border-b-0 md:border-r border-neutral-200 p-6 flex flex-col gap-4">
