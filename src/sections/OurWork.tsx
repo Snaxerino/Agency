@@ -10,11 +10,11 @@ export default function OurWork() {
 		<div>
 			<ProjectPreview label="Lotus" />
 			<ProjectPreview label="À Deriva (“Adrift”)" />
-			<div className="gap-4 p-6 grid grid-cols-12">
-				<div className="relative col-span-4 mt-6 h-100">
+			<div className="gap-4 pt-0 px-6 pb-6 md:pt-6 md:pb-4 md:px-6 grid md:grid-cols-12">
+				<div className="relative col-span-4 mt-6 md:h-100">
 					<span className="text-neutral-950 text-label-md">Mangiaro</span>
 				</div>
-				<div className="w-full h-96 col-span-8 bg-neutral-100 rounded-3xl"></div>
+				<div className="w-full h-64 md:h-96 col-span-8 bg-neutral-100 rounded-xl md:rounded-3xl"></div>
 			</div>
 		</div>
     </section>
